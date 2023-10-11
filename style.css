@@ -1,0 +1,74 @@
+* {
+  font-family: "AR One Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Young Serif", serif;
+  margin: 0;
+  text-decoration: none;
+}
+.samjik {
+  width: 100%;
+  background: rgba(147, 236, 153, 0.3);
+  padding: 50px 20px;
+}
+h1 {
+  font-size: 3.5rem;
+  margin-left: 40%;
+}
+
+.samjik-subtitle {
+  font-size: 1.5rem;
+  margin-left: 35%;
+}
+.socialmedia {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgba(147, 236, 153, 0.3);
+}
+
+.introduction {
+  margin: 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+img {
+  padding: 3rem;
+}
+
+.fa-brands {
+  width: 10px;
+  height: 10px;
+  font-size: 50px;
+}
+
+a,
+label,
+input {
+  padding: 10px;
+}
+.fa-brands:hover {
+  font-size: 80px;
+  color: black;
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all 1s ease;
+}
+label,
+input,
+button:hover {
+  font-size: 1.5rem;
+
+  color: black;
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all 1s ease;
+}
+footer{
+  background: rgba(147, 236, 153, 0.3);
+  padding: 50px;
+}
